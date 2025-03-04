@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Web Page</title>
+    <style>
+        /* Global Styling */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #454d08, #e8fc08);
+            color: rgba(19, 217, 239, 0.741);
+            scroll-behavior: smooth;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background: rgba(192, 232, 15, 0.9);
+            position: unset;
+            width: 100%;
+            top: 49px;
+            left: 0;
+            padding: 10px 0;
+            box-shadow: 0px 4px 10px rgba(54, 225, 11, 0.5);
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(86, 31, 226);
+            padding: 12px 18px;
+            font-weight: bold;
+            transition: 0.3s ease-in-out;
+            border-radius: 5px;
+        }
+        nav ul li a:hover {
+            background: #b2e608;
+            color: black;
+        }
+
+        /* Marquee */
+        marquee {
+            background-color: #1b2429;
+            color: white;
+            padding: 12px;
+            font-size: 1.2em;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        /* Main Content */
+        main {
+            max-width: 1200px;
+            margin: 80px auto 20px; /* Adjusted for fixed navbar */
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+        section {
+            padding: 50px;
+            margin-bottom: 20px;
+            text-align: center;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        section:hover {
+            transform: scale(1.03);
+        }
+        section h1 {
+            color: #ff4b2b;
+            font-size: 2em;
+            text-shadow: 2px 2px 10px rgba(255, 75, 43, 0.8);
+        }
+        section p {
+            font-size: 1.2em;
+            color: rgb(200, 200, 200);
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.1em;
+        }
+        footer a {
+            color: #00b1f6;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+        footer a:hover {
+            color: #ff4b2b;
+            text-decoration: underline;
+        }
+
+        /* Button Style */
+        .btn {
+            background: #c8dd08;
+            padding: 12px 20px;
+            color: black;
+            font-size: 1em;
+            font-weight: bold;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.85
+            
+            s ease-in-out;
+            display: inline-block;
+            margin-top: 30px;
+        }
+        .btn:hover {
+            background: #d4ee0a;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#home">🏠 Home</a></li>
+            <li><a href="#about">📖 About Us</a></li>
+            <li><a href="#your-choice">🎨 Your Choice</a></li>
+            <li><a href="#contact">📞 Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Marquee -->
+    <marquee behavior="scroll" direction="left">🚀 Welcome to Web Technology and Design! Stay updated with the latest information.</marquee>
+
+    <!-- Main Content -->
+    <main>
+        <section id="home">
+            <h1>🏠 Welcome to the Home Page</h1>
+            <p>This is the starting point of our website. Explore more through the navigation links above.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </section>
+        
+        <section id="about">
+            <h1>📖 About Us</h1>
+            <p>Learn more about the behind-the-scenes of a website and its development journey.</p>
+            <a href="#your-choice" class="btn">Discover</a>
+        </section>
+        
+        <section id="your-choice">
+            <h1>🎨 Your Choice</h1>
+            <p>Customize this section as per your needs. Let your creativity shine.</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </section>
+        
+        <section id="contact">
+            <h1>📞 Contact Us</h1>
+            <p>Reach out through our contact form or email us at <b>prasunkuma2611@gmail.com</b>.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <p>
+                <a href="timetable.html" target="_blank">📅 TimeTable</a> |
+                <a href="p3.html" target="_blank"> 📅 Result</a> 
+            </p>
+        </div>
+        <p>&copy; 2025 Your Website Name.<p>
+        <p>    All rights reserved.</p>
+    </footer>
+</body>
+</html>
